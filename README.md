@@ -1,7 +1,7 @@
 # Fire-Gas-Alarm-System-
 This is a fire/gas alarm system designed and implemented using Arduino UNO.
 
-🛠 Components Used
+_🛠 Components Used_
 MQ-2 Gas Sensor
 Arduino UNO
 5 x LEDs (Danger Indicators)
@@ -12,7 +12,7 @@ Breadboard
 Jumper Wires
 USB Cable or Power Supply
 
-⚙️ How It Works
+_⚙️ How It Works_
 The MQ-2 sensor detects the concentration of gas in the air.
 When the gas level crosses a predefined threshold, the system goes into alarm mode:
 
@@ -22,7 +22,7 @@ When the gas level crosses a predefined threshold, the system goes into alarm mo
 
 🔄 Both servo motors rotate to 90° (simulate opening gates for emergency escape)
 
-When the gas level is normal (below threshold):
+_When the gas level is normal (below threshold):_
 
 🔕 Buzzer is OFF
 
@@ -30,7 +30,7 @@ When the gas level is normal (below threshold):
 
 🔁 Servo motors reset to 0° (gates closed)
 
-🚀 Future Improvements
+_🚀 Future Improvements_
 
 Add temperature or flame sensor for multi-layer detection.
 
