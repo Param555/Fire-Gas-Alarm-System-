@@ -14,6 +14,8 @@ Arduino UNO
 
 1 x Buzzer
 
+16x2 i2c display/ 0.96" oled display 
+
 Resistors
 
 Breadboard
@@ -28,19 +30,23 @@ The MQ-2 sensor detects the concentration of gas in the air.
 
 When the gas level crosses a predefined threshold, the system goes into alarm mode:
 
-🚨 Buzzer starts beeping
+-🚨 Buzzer starts beeping
 
-💡 All 5 LEDs turn ON
+-💡 All 5 LEDs turn ON
 
-🔄 Both servo motors rotate to 90° (simulate opening gates for emergency escape)
+-🔄 Both servo motors rotate to 90° (simulate opening gates for emergency escape)
+
+-📺 **LCD shows a "Fire Alert" warning message**
 
 **_When the gas level is normal (below threshold):_**
 
-🔕 Buzzer is OFF
+-🔕 Buzzer is OFF
 
-⚫ LEDs are OFF
+-⚫ LEDs are OFF
 
-🔁 Servo motors reset to 0° (gates closed)
+-🔁 Servo motors reset to 0° (gates closed)
+
+-📟 **LCD shows the current gas level only**
 
 **_🚀 Future Improvements_**
 
